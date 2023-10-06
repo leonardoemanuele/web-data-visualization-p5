@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Data visualisation Project - University of London</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+    <!-- d3js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Main visualisation files -->
+    <script src="extensions/elect-source-distr.js"></script>
+    <script src="extensions/elect-distr-2000-2019.js"></script>
+    <script src="extensions/elect-distr-bubble.js"></script>
+    <script src="extensions/attitudes-level-of-trust.js"></script>
+    <script src="extensions/word-map-co2.js"></script>
+
+    <!-- Add extra scripts below -->
+    <script src="modules/helper-functions.js"></script>
+    <script src="modules/gallery.js"></script>
+    <script src="modules/pie-chart-comparison.js"></script>
+    <script src="modules/waffle-box.js"></script>
+    <script src="modules/waffle.js"></script>
+    <script src="modules/bubble-chart.js"></script>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="components">
+        <ul id="visuals-menu"></ul>
+      </div>
+    </div>
+  </body>
+</html>
