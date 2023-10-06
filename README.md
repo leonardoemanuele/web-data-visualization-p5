@@ -1,7 +1,3 @@
-Certainly! Here's the full document with the integrated visualizations section:
-
----
-
 # Web Data Visualization Project - University of London
 
 This project focuses on visualizing data related to energy consumption, attitudes towards climate change, and CO2 emissions. It includes various visualizations to help users gain insights into these important environmental aspects.
@@ -83,5 +79,3 @@ The Survey extension uses the waffle chart visualization to display the results 
 This extension displays CO2 emissions for each country in the world on a world map. The countries are colored based on the level of emissions, ranging from blue to red. Hovering over a country provides additional information about its CO2 emissions.
 
 ---
-
-This document provides an overview of the project structure and the visualizations integrated into the system. Each visualization serves a unique purpose in presenting environmental data effectively.
